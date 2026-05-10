@@ -15,13 +15,8 @@ function calculateDiscount(price, discountPercent) {
 }
 
 function isAdult(age) {
-  if (age >= 18) {
-    return true;
-  } else {
-    return false;
-  }
+  return age >= 18;
 }
-
 module.exports = {
   add,
   divide,
