@@ -1,0 +1,12 @@
+{
+  "name": "sonarqube-js-quality-demo",
+  "version": "1.0.0",
+  "description": "Demo project for SonarQube code quality analysis",
+  "main": "src/calculator.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
